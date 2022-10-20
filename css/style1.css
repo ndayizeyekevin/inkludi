@@ -1,0 +1,224 @@
+body{
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  /* max-height: 150px; */
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color: rgba(255, 166, 0, 0.944);
+}
+#home{
+  background-image: url("../images/home-image.jpg");
+  /* background-color: rgba(233, 73, 19, 0.813); */
+}
+
+
+/* Header elements */
+header{
+  margin-bottom: 80px;
+}
+
+/* Togller css */
+.iconColor {
+  color: #9933CC!important;
+}
+.navbar .navbar-toggler:focus {
+  color: #ff4444;
+}   
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 6;
+  }
+}
+
+/* .piccont img {
+  height: 40%;
+  width: 60%;
+} */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;   /* Height of the footer */
+  background-color: #000;
+}
+#footer p{
+  text-align: center;
+  color: #fff;
+ 
+}
+
+/* footer {
+  margin-top: 100vmin;
+  min-height: 100px;
+} */
+.header {
+  min-height: 100px;
+}
+.header h1 {
+  padding-top: 25px;
+}
+
+
+.mySlides img {
+  width: 400px;
+}
+.text p {
+  padding-top: 510px;
+}
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+
+.sectimg{
+  /* margin-top: -130px; */
+  top: 200px;
+  float: right;
+  padding: 10px;
+}
+
+@media screen and (max-width: 375px){
+  .sectimg img{
+    height: 100px; 
+    max-width: 375px;
+
+  }
+}
+
+
+.row a{
+  color: white;
+  text-decoration: none;
+}
+
+.row p{
+  color: white;
+}
+
+.row1 p{
+  color: #000;
+  text-align: auto;
+  width: 50%;
+  left: 100;
+  float: right;
+}
+#txt h2{
+  float: right;
+  color: #000;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+#txt hr{
+  color: green;
+  height: 3px;
+  width: 200px;
+}
+#txt {
+  margin-bottom: 30px;
+}
+.sectimg1{
+
+  top: 200px;
+  float: left;
+
+  width: 50%;
+}
